@@ -10,7 +10,6 @@ public class NumberToArray {
         solution(123456);
     }
 
-    int i = 0;
     public static int[] solution(long number){
         String strNumber = String.valueOf(number);
         int[] answer = new int[strNumber.length()];
